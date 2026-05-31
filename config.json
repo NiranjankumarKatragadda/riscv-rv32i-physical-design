@@ -1,0 +1,48 @@
+{
+    "DESIGN_NAME": "riscv_pipeline",
+    "VERILOG_FILES": [
+        "dir::rtl/riscv_pipeline.v",
+        "dir::rtl/alu.v",
+        "dir::rtl/control_hazard_fwd.v",
+        "dir::rtl/mem_tb.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_NET":  "clk",
+    "CLOCK_PERIOD": 10.0,
+
+    "::Floorplan::" : "----------",
+    "FP_CORE_UTIL"       : 65,
+    "FP_ASPECT_RATIO"    : 1,
+    "FP_PDN_VPITCH"      : 153.6,
+    "FP_PDN_HPITCH"      : 153.18,
+    "FP_PIN_ORDER_CFG"   : "dir::pin_order.cfg",
+
+    "::Placement::" : "----------",
+    "PL_TARGET_DENSITY"  : 0.60,
+    "PL_RESIZER_DESIGN_OPTIMIZATIONS": 1,
+    "PL_RESIZER_TIMING_OPTIMIZATIONS": 1,
+
+    "::CTS::" : "----------",
+    "CTS_TARGET_SKEW"    : 200,
+    "CTS_CLK_BUFFER_LIST": "sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8",
+
+    "::Routing::" : "----------",
+    "ROUTING_CORES"      : 4,
+    "GLB_RESIZER_TIMING_OPTIMIZATIONS": 1,
+
+    "::Synthesis::" : "----------",
+    "SYNTH_STRATEGY"     : "DELAY 0",
+    "SYNTH_MAX_FANOUT"   : 10,
+
+    "::Signoff::" : "----------",
+    "RUN_CTS"            : 1,
+    "RUN_FILL_INSERTION" : 1,
+    "RUN_DRC"            : 1,
+    "RUN_LVS"            : 1,
+    "RUN_ANTENNA_CHECKER": 1,
+    "DIODE_INSERTION_STRATEGY": 4,
+
+    "::PDK::" : "----------",
+    "PDK"                : "sky130A",
+    "STD_CELL_LIBRARY"   : "sky130_fd_sc_hd"
+}
