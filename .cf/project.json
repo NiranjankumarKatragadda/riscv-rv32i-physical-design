@@ -1,0 +1,867 @@
+{
+  "precheck": {
+    "version": "1.3.3",
+    "timestamp": "2026-11-10T18:11:24.836946+00:00",
+    "pdk": "sky130A",
+    "passed": true,
+    "checks": {
+      "topcell_check": {
+        "status": "pass",
+        "duration_s": 1.87
+      },
+      "gpio_defines": {
+        "status": "pass",
+        "duration_s": 1.22
+      },
+      "xor": {
+        "status": "pass",
+        "duration_s": 19.09
+      },
+      "magic_drc": {
+        "status": "pass",
+        "duration_s": 974.51
+      },
+      "klayout_feol": {
+        "status": "pass",
+        "duration_s": 290.04
+      },
+      "klayout_beol": {
+        "status": "pass",
+        "duration_s": 750.28
+      },
+      "klayout_offgrid": {
+        "status": "pass",
+        "duration_s": 177.06
+      },
+      "klayout_met_min_ca_density": {
+        "status": "pass",
+        "duration_s": 47.89
+      },
+      "klayout_pin_label_purposes_overlapping_drawing": {
+        "status": "pass",
+        "duration_s": 30.59
+      },
+      "klayout_zeroarea": {
+        "status": "pass",
+        "duration_s": 8.77
+      },
+      "spike_check": {
+        "status": "pass",
+        "duration_s": 6.11
+      },
+      "illegal_cellname_check": {
+        "status": "pass",
+        "duration_s": 1.78
+      },
+      "lvs": {
+        "status": "pass",
+        "duration_s": 612.86
+      },
+      "oeb": {
+        "status": "pass",
+        "duration_s": 7.54,
+        "details": "0 errors, 43 warnings across 38 GPIOs",
+        "report": {
+          "report_relpath": "/tmp/tmpu0_ldu26/repo/precheck_results/10_NOV_2026___17_22_34/outputs/reports/cvc.oeb.report",
+          "design_type": "caravel",
+          "gpios": [
+            {
+              "gpio": 0,
+              "user_index": 0,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "FIXED_STD_INPUT_NOPULL",
+              "resolved_mode": "FIXED_STD_INPUT_NOPULL",
+              "warning_count": 2,
+              "error_count": 0
+            },
+            {
+              "gpio": 1,
+              "user_index": 1,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "FIXED_STD_INPUT_NOPULL",
+              "resolved_mode": "FIXED_STD_INPUT_NOPULL",
+              "warning_count": 2,
+              "error_count": 0
+            },
+            {
+              "gpio": 2,
+              "user_index": 2,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "FIXED_STD_INPUT_NOPULL",
+              "resolved_mode": "FIXED_STD_INPUT_NOPULL",
+              "warning_count": 2,
+              "error_count": 0
+            },
+            {
+              "gpio": 3,
+              "user_index": 3,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "FIXED_STD_INPUT_PULLUP",
+              "resolved_mode": "FIXED_STD_INPUT_PULLUP",
+              "warning_count": 2,
+              "error_count": 0
+            },
+            {
+              "gpio": 4,
+              "user_index": 4,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "FIXED_STD_INPUT_NOPULL",
+              "resolved_mode": "FIXED_STD_INPUT_NOPULL",
+              "warning_count": 2,
+              "error_count": 0
+            },
+            {
+              "gpio": 5,
+              "user_index": 5,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            },
+            {
+              "gpio": 6,
+              "user_index": 6,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            },
+            {
+              "gpio": 7,
+              "user_index": 7,
+              "analog_index": 0,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            },
+            {
+              "gpio": 8,
+              "user_index": 8,
+              "analog_index": 1,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 9,
+              "user_index": 9,
+              "analog_index": 2,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 10,
+              "user_index": 10,
+              "analog_index": 3,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 11,
+              "user_index": 11,
+              "analog_index": 4,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 12,
+              "user_index": 12,
+              "analog_index": 5,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 13,
+              "user_index": 13,
+              "analog_index": 6,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 14,
+              "user_index": 14,
+              "analog_index": 7,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 15,
+              "user_index": 15,
+              "analog_index": 8,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 16,
+              "user_index": 16,
+              "analog_index": 9,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 17,
+              "user_index": 17,
+              "analog_index": 10,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 18,
+              "user_index": 18,
+              "analog_index": 11,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 19,
+              "user_index": 19,
+              "analog_index": 12,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 20,
+              "user_index": 20,
+              "analog_index": 13,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 21,
+              "user_index": 21,
+              "analog_index": 14,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 22,
+              "user_index": 22,
+              "analog_index": 15,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 23,
+              "user_index": 23,
+              "analog_index": 16,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 24,
+              "user_index": 24,
+              "analog_index": 17,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 25,
+              "user_index": 25,
+              "analog_index": 18,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 26,
+              "user_index": 26,
+              "analog_index": 19,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 27,
+              "user_index": 27,
+              "analog_index": 20,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 28,
+              "user_index": 28,
+              "analog_index": 21,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 29,
+              "user_index": 29,
+              "analog_index": 22,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "MGMT_STD_INPUT_NOPULL",
+              "resolved_mode": "MGMT_STD_INPUT_NOPULL",
+              "warning_count": 0,
+              "error_count": 0
+            },
+            {
+              "gpio": 30,
+              "user_index": 30,
+              "analog_index": 23,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            },
+            {
+              "gpio": 31,
+              "user_index": 31,
+              "analog_index": 24,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            },
+            {
+              "gpio": 32,
+              "user_index": 32,
+              "analog_index": 25,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            },
+            {
+              "gpio": 33,
+              "user_index": 33,
+              "analog_index": 26,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            },
+            {
+              "gpio": 34,
+              "user_index": 34,
+              "analog_index": 27,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            },
+            {
+              "gpio": 35,
+              "user_index": 35,
+              "analog_index": 28,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            },
+            {
+              "gpio": 36,
+              "user_index": 36,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            },
+            {
+              "gpio": 37,
+              "user_index": 37,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd*",
+              "oeb_sim": null,
+              "oeb_max": "vccd*",
+              "configuration": "USER_STD_INPUT_NOPULL",
+              "resolved_mode": "USER_STD_INPUT_NOPULL",
+              "warning_count": 3,
+              "error_count": 0
+            }
+          ],
+          "messages": [
+            {
+              "gpio": 0,
+              "severity": "warning",
+              "text": "user output connection to fixed input gpio - firmware override required"
+            },
+            {
+              "gpio": 0,
+              "severity": "warning",
+              "text": "user oeb connection to fixed input gpio - firmware override required"
+            },
+            {
+              "gpio": 1,
+              "severity": "warning",
+              "text": "user output connection to fixed input gpio - firmware override required"
+            },
+            {
+              "gpio": 1,
+              "severity": "warning",
+              "text": "user oeb connection to fixed input gpio - firmware override required"
+            },
+            {
+              "gpio": 2,
+              "severity": "warning",
+              "text": "user output connection to fixed input gpio - firmware override required"
+            },
+            {
+              "gpio": 2,
+              "severity": "warning",
+              "text": "user oeb connection to fixed input gpio - firmware override required"
+            },
+            {
+              "gpio": 3,
+              "severity": "warning",
+              "text": "user output connection to fixed input gpio - firmware override required"
+            },
+            {
+              "gpio": 3,
+              "severity": "warning",
+              "text": "user oeb connection to fixed input gpio - firmware override required"
+            },
+            {
+              "gpio": 4,
+              "severity": "warning",
+              "text": "user output connection to fixed input gpio - firmware override required"
+            },
+            {
+              "gpio": 4,
+              "severity": "warning",
+              "text": "user oeb connection to fixed input gpio - firmware override required"
+            },
+            {
+              "gpio": 5,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 5,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 5,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            },
+            {
+              "gpio": 6,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 6,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 6,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            },
+            {
+              "gpio": 7,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 7,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 7,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            },
+            {
+              "gpio": 30,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 30,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 30,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            },
+            {
+              "gpio": 31,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 31,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 31,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            },
+            {
+              "gpio": 32,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 32,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 32,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            },
+            {
+              "gpio": 33,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 33,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 33,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            },
+            {
+              "gpio": 34,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 34,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 34,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            },
+            {
+              "gpio": 35,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 35,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 35,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            },
+            {
+              "gpio": 36,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 36,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 36,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            },
+            {
+              "gpio": 37,
+              "severity": "warning",
+              "text": "missing user input connection"
+            },
+            {
+              "gpio": 37,
+              "severity": "warning",
+              "text": "user output connection to input gpio ignored"
+            },
+            {
+              "gpio": 37,
+              "severity": "warning",
+              "text": "user oeb connection to input gpio ignored"
+            }
+          ],
+          "summary": {
+            "total": 38,
+            "errors": 0,
+            "warnings": 43,
+            "no_issues_banner": false
+          }
+        }
+      }
+    },
+    "input_file_hash": "20c9e7aeb7beaa326604acf1cb7e0ce0dcfb1fe5"
+  }
+}
