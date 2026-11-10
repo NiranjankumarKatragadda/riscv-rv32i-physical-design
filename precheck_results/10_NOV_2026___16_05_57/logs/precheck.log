@@ -1,0 +1,10 @@
+2026-11-10 16:05:57 [INFO] Extracting compressed files in: /tmp/tmpai1tdq14/repo
+2026-11-10 16:05:57 [CRITICAL] make uncompress reported success (exit 0) but produced no gds/*.gds files in /tmp/tmpai1tdq14/repo/gds. stderr tail: find: ‘./gds’: No such file or directory
+/bin/bash: line 1: cd: openlane: No such file or directory
+/bin/bash: line 1: cd: openlane: No such file or directory
+/bin/bash: line 1: cd: openlane: No such file or directory
+/bin/bash: line 1: cd: openlane: No such file or directory
+/bin/bash: line 1: cd: openlane: No such file or directory
+/bin/bash: line 1: cd: openlane: No such file or directory
+/bin/bash: line 1: cd: openlane: No such file or directory
+/bin/bash: line 1: cd: openlane: No such file or directory | stdout tail: All files are uncompressed!
