@@ -209,3 +209,15 @@ slack (MET)  =  9.820 - 1.000  =  8.820 ← POSITIVE = PASS ✅
 
 ---
 *ChipXpert RISC-V PD Project — Open Source Flow*
+
+## 🛡️ Pre-Shuttle Physical Verification Sign-Off (ChipFoundry / chipIgnite)
+| Check | Status | Engine / Standard |
+| :--- | :---: | :--- |
+| **Top Cell & Boundary** | **PASS** | `cf-precheck` v1.3.7 |
+| **GPIO Configuration** | **PASS** | Power-On Reset Vector Validation |
+| **Wrapper XOR** | **PASS** | KLayout Boundary Mask XOR |
+| **FEOL & BEOL DRC** | **PASS** | KLayout (SkyWater 130A Ruleset) |
+| **Offgrid & Metal Density** | **PASS** | KLayout DRC Engine |
+| **Pin Labels & ZeroArea** | **PASS** | Geometry Integrity Validator |
+| **Transistor-Level LVS** | **PASS** | Netgen & Magic SPICE Extraction |
+| **OEB Logic Solver** | **PASS** | CVC (Circuit Validity Check) |
